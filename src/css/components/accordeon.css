@@ -1,3 +1,18 @@
 /**
 * Accordeon
 */
+details {
+    /* fermé et ouvert */
+    overflow: hidden;
+    height: 120px;
+    transition: height 2.3s ease;
+}
+
+details[open] {
+    /* ouvert */
+    height: 220px;
+}
+
+summary {
+    list-style: none;
+}
